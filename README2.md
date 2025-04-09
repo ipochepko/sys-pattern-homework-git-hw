@@ -58,10 +58,17 @@ systemctl enable zabbix-server zabbix-agent apache2
 7. Приложите в файл README.md текст использованных команд в GitHub
 
 wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
+
 dpkg -i zabbix-release_latest_6.0+debian11_all.deb
+
 apt update
+
 apt install zabbix-agent
+
 systemctl restart zabbix-agent
+
 systemctl enable zabbix-agent
+
 nano /etc/zabbix/zabbix_agentd.conf
+
 systemctl restart zabbix-agent.service
