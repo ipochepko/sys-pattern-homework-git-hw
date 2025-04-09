@@ -15,7 +15,7 @@
 
 1. Прикрепите в файл README.md скриншот авторизации в админке.
 
-![40f0989db4acb89736f828b2ab1dc412.png](..//home/ilia/sys-pattern-homework-git-hw/40f0989db4acb89736f828b2ab1dc412.png)
+![40f0989db4acb89736f828b2ab1dc412.png](./40f0989db4acb89736f828b2ab1dc412.png)
    
 3. Приложите в файл README.md текст использованных команд в GitHub.
 
@@ -50,11 +50,11 @@ systemctl enable zabbix-server zabbix-agent apache2
 #### Требования к результатам
 
 1. Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
-   ![83337abb4562a51e9f922ecce29f5aab.png](..//home/ilia/sys-pattern-homework-git-hw/83337abb4562a51e9f922ecce29f5aab.png)
+   ![83337abb4562a51e9f922ecce29f5aab.png](./83337abb4562a51e9f922ecce29f5aab.png)
 3. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
-   ![faebe9e1fa36b6b0ebc9ed97ca615c09.png](..//home/ilia/sys-pattern-homework-git-hw/faebe9e1fa36b6b0ebc9ed97ca615c09.png)
+   ![faebe9e1fa36b6b0ebc9ed97ca615c09.png](./faebe9e1fa36b6b0ebc9ed97ca615c09.png)
 5. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
-   ![db30ed12a90287f43954cd4314e5d219.png](..//home/ilia/sys-pattern-homework-git-hw/db30ed12a90287f43954cd4314e5d219.png)
+   ![db30ed12a90287f43954cd4314e5d219.png](./db30ed12a90287f43954cd4314e5d219.png)
 7. Приложите в файл README.md текст использованных команд в GitHub
 
 wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
